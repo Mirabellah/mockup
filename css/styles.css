@@ -716,11 +716,14 @@ body10{
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/cities/grass.jpg");
+	background-size: cover;
+	background-position: center;
 }
 .wrapper{
 	width: 420px;
 	background: #FFCF00;
-	color: white;
+	color: black;
 	border-radius: 12px;
 	padding: 30px 40px;
 }
@@ -743,11 +746,11 @@ body10{
 	border: 2px solid rgba(255, 255, 255, .2);
 	border-radius: 40px;
 	font-size: 16px;
-	color: white;
-	padding: 20px 45px 20px 20px;
+	color: black;
+	padding: 20px 45px 20px 20px;	
 }
 .input.input-box input::placeholder{
-	color: white;
+	color: black;
 }
 .input-box i{
 	position: absolute;
@@ -763,11 +766,11 @@ body10{
 	margin: -15px 0 15px;
 }
 .remeber-forgot label input{
-	accent-color: white;
+	accent-color: black;
 	margin-right: 3px;
 }
 .remember-forgot a{
-	color: #FFFFFF;
+	color: black;
 	text-decoration: none;
 }
 .wrapper .btn{
@@ -789,7 +792,7 @@ body10{
 	margin: 20px 0 15px;
 }
 .register-link p a{
-	color: white;
+	color: black;
 	text-decoration: none;
 	font-weight: 600;
 }
