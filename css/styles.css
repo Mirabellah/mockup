@@ -151,6 +151,22 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 	margin-bottom: 30px;
 }
 
+/*-------------------experiences--------------*/
+.testimonial{
+	position: relative;
+	max-width: 900px;
+	
+	
+}
+
+
+.testimonial .image{
+	height: 170px;
+	width: 170px;
+	object-fit: cover;
+	border-radius: 50%;
+	
+}
 
 /*-------------------call to action--------------*/
 .cta{
