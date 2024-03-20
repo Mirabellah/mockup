@@ -258,6 +258,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 footer{
 	position: relative;
+	left: 0;
+	right: 0;
 	width: 100%;
 	background: #3586ff;
 	min-height: 100px;
@@ -267,13 +269,14 @@ footer{
 	align-items: center;
 	flex-direction: column;
 }
+
 footer .social-icon,
 footer .menu
 {
 	position: relative;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-ite§ms: center;
 	margin: 10px 0;
 }
 footer .social-icon li,
