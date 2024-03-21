@@ -154,7 +154,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 /*-------------------experiences--------------*/
 
 
-
 .site{
 	height: 100vh;
 	display: flex;
@@ -367,45 +366,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 	display: inline-block;
 }
 
-/*-------------------call to action--------------*/
-.stories{
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-	grid-gap: 30px;
-	margin-bottom: 30px;
-}
-.stories div{
-	width: 100%;
-	border-radius: 10px;
-	
-}
-.stories div{
-	position: relative;
-	text-align: center;
-}
-.stories p{
-	width: 80%;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50, -50);
-	color: #FFFF;
-	font-size: 26px;
-}
-.start-btn{
-	text-decoration: none;
-	background: #D9E0A2;
-	color: #FFF;
-	width: 80%;
-	max-width: 350px;
-	display: block;
-	text-align: center;
-	margin: 60px auto;
-	padding: 15px;
-	border-radius: 30px;
-	font-size: 20px;
-}
-
 /*-------------------about-msg --------------*/
 .about-msg{
 	text-align: center;
@@ -422,6 +382,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 /*-------------------footer --------------*/
+.footer-space {
+    height: 100px;
+}
 
 footer{
 	position: relative;
