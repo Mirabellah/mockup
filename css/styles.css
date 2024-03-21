@@ -196,6 +196,11 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 	width: 100%;
 	height: 100%;
 	border-radius: 50%;
+	transform: scale(2);
+	transition: transform .5s;
+}
+.testi .swiper-slide-active .thumbnail img{
+	transform: scale(1);
 }
 .testi .thumbnail::before{
 	content: '';
@@ -204,10 +209,15 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 	left: 0;
 	width: calc(100% + 30px);
 	height: calc(100% + 10px);
-	background-color: blueviolet;
-	border-radius: 33% 67% 50% 50% / 50% 14% 86% 50%;
+	background-color: #FFCF00;
+	border-radius: 50%;
 	z-index: -1;
 	box-shadow: var(--box-shadow);
+	transition: border-radius .5s .3s;
+}
+.testi .swiper-slide-active .thumbnail::before{
+		border-radius: 33% 67% 50% 50% / 50% 14% 86% 50%;
+
 }
 .testi .aside{
 	position: relative;
@@ -221,6 +231,13 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 	font-size: 14px;
 	line-height: normal;
 	margin-bottom: 30px;
+	opacity: 0;
+	transform: translateX(10%);
+	transition: transform 1s, opacity 1s;
+}
+.testi .swiper-slide-active .aside > p{
+	transform: translateX(0);
+	opacity: 1;
 }
 .testi .aside > p::before,
 .testi .aside > p::after{
@@ -246,16 +263,58 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 	position: relative;
 	width: fit-content;
 	line-height: 1;	
+	opacity: 0;
+	transform: translateX(30px);
+	transition: transform 1s .2s, opacity 1s .3s;
+}
+.testi .swiper-slide-active .name{
+	transform: translateX(0);
+	opacity: 1;
 }
 .testi .aside .name h4{
 	font-size: 22px;
 	font-weight: 800;
-	color: palevioletred;
+	color: #000000;
 	opacity: .8;
 }
 .testi .aside .name p{
 	font-size: 12px;
 	text-align: right;
+}
+
+/*-------------------experiences--------------*/
+.testi .swiper-button-next,
+.testi .swiper-button-prev{
+	background-color: #485613;
+	top: 35%;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	transition: background-color .3s;
+	box-shadow: var(--box-shadow);
+}
+.testi .swiper-button-next:hover,
+.testi .swiper-button-prev:hover{
+	background-color: #C4DDEF;
+}
+.testi .swiper-button-next::after,
+.testi .swiper-button-prev::after{
+	font-size: 16px;
+	font-weight: 800;
+	color: #C4DDEF;
+}
+.testi .swiper-pagination{
+	position: relative;
+}
+.testi .swiper-pagination span{
+ background-color: #C4DDEF;
+	transition: width .3s;
+	opacity: 1;
+}
+.testi .swiper-pagination .swiper-pagination-bullet-active{
+	width: 26px;
+	border-radius: 4px;
+	background-color: #FFCF00;
 }
 
 @media screen and (min-width: 768px) {
@@ -267,8 +326,15 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 		width: 200px;
 		height: 200px;
 	}
-	
+	.testi .swiper-button-next,
+	.testi .swiper-button-prev{
+		top:50%;
+	}
+	.testi .swiper-slide-active .name{
+		transform: translateX(-50px);
+	}
 }
+
 /*-------------------call to action--------------*/
 .cta{
 	margin: 80px 0;
