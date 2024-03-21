@@ -10,6 +10,11 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+	<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
 <script src="https://kit.fontawesome.com/1d58bb6c18.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -136,18 +141,72 @@
 		</span>
 	</div>
 </div>
-	<h2 class="sub-title">Experiences</h2>
-	<div class="testimonial">
-	<div class="test-content">
-	<div class="slide">
-	<img src="images/person/host3.jpg" alt="" class="image" />	
-		
+	
+	<div style="margin-bottom: 150px;"></div>
+
+<div id="page" class="site">
+ <div class="testimonials-container">
+	<div class="testi">
+	 <div class="head">
+		 <h3>Experiences</h3>
+		 <p>See what people are saying..</p>
+		</div>
+		<div class="body swiper">
+		<ul class="swiper-wrapper">
+		<li class="swiper-slide">
+		<div class="testimonials-wrapper">
+			<div class="thumbnail">
+				<img src="images/person/host.jpg" alt="host">
+			
+			</div>
+			<div class="aside">
+				<p>lorem ipsum ftguhiuogtrdftguyhiuj;ltiredfrgyhujik;ulytreswasedrftgyhlujik';uyg</p>
+	
+			<div class="name">
+				<h4>lisa kooiman</h4>
+				<p>petsitter</p>
+			
+	        </div>
+			
+	    </div>
 	</div>	
-		
-	</div>
+</li>	
+</ul>
+	<!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>		
+			
+</div>
+</div>
 	
 	</div>
 
+	
+	</div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+	const swiper = new Swiper('.swiper', {
+		autoHeight: true,
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+
+});
+	</script>
 
 		
 
