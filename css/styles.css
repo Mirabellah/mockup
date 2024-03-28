@@ -10,7 +10,7 @@
 .header{
 	min-height: 100vh;
 	width: 100%;
-	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/dogs/mainpage.jpg");
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/dogs/dogsonbeachcover");
 	background-size: cover;
 	background-position: center;
 }
@@ -894,18 +894,14 @@ body10{
 
 /*---------registerpage-----*/
 
-<<<<<<< Updated upstream
 body2 {
 	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/cities/grass.jpg");
 	background-size: cover;
 	background-position: center;
 }
-=======
-
->>>>>>> Stashed changes
 /*-----------contact-page--------*/
 body3{
-	background:#4175AC";
+	background:#4175AC;
 	font-size: 14px;	
 }
 .container3{
@@ -939,9 +935,8 @@ h13{
 }
 .input-row .input-group{
 	flex-basis: 45%;
-<<<<<<< Updated upstream
 }
-<<<<<<< HEAD
+
 
 /*---------faqpage-----*/
 
@@ -1040,8 +1035,4 @@ h13{
 	color: #333;
 	z-index: 10;
 }
-=======
-=======
-}
->>>>>>> Stashed changes
->>>>>>> 10faa9f13b3bf141a3cdf207cf7b6f3b68782b36
+
