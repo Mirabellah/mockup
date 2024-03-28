@@ -128,7 +128,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 	grid-gap: 30px;
 }
 .exclusives div img{
-	width: 100;
+	
 	border-radius: 10px;
 }
 .exclusives div{
@@ -436,7 +436,7 @@ footer .menu li a{
 	text-decoration: none;
 	opacity: 0.75;
 }
-footer .menu li a::hover{
+footer .menu li a::hover {
 	opacity: 1;
 	
 }
@@ -1008,7 +1008,7 @@ h13{
 {
 	background: linear-gradient(135deg, #70f570, #49c628);
 }
-.containerfaq .tab:nth-child(2) label h2
+.containerfaq .tab:nth-child(5) label h2
 {
 	background: linear-gradient(135deg, #70f570, #49c628);
 }
