@@ -894,14 +894,18 @@ body10{
 
 /*---------registerpage-----*/
 
+<<<<<<< Updated upstream
 body2 {
 	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/cities/grass.jpg");
 	background-size: cover;
 	background-position: center;
 }
+=======
+
+>>>>>>> Stashed changes
 /*-----------contact-page--------*/
 body3{
-	background:"#";
+	background:#4175AC";
 	font-size: 14px;	
 }
 .container3{
@@ -935,4 +939,8 @@ h13{
 }
 .input-row .input-group{
 	flex-basis: 45%;
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes
