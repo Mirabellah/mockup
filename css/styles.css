@@ -342,7 +342,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 /*-------------------call to action--------------*/
 .cta{
 	margin: 80px 0;
-	background-image: linear-gradient(to right, #3f2321, transparent), url("../images/dogs/dog-on-living-room-couch-cropped.jpg");
+	background-image: linear-gradient(to right, #3f2321, transparent), url("../images/dogs/highfivedog.jpg");
 	background-size: cover;
 	background-position: center;
 	border-radius: 10px;
