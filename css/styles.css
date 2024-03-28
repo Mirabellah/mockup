@@ -894,4 +894,41 @@ body {
 	background-size: cover;
 	background-position: center;
 }
-
+/*-----------contact-page--------*/
+body3{
+	background:"#";
+	font-size: 14px;	
+}
+.container3{
+	width: 80%;
+	margin: 50px auto;
+}
+.container-box{
+	background: #fff;
+	display: flex;
+}
+.contact-left{
+	flex-basis: 60%;
+	padding:40px 60px;
+}
+.contact-right{
+	flex-basis: 60%;
+	padding:40px 60px;
+	background: #1c00b5;
+	color:#fff;
+}
+h13{
+	margin-bottom: 10px;
+}
+.container p{
+	marginbottom: 40px;
+}
+.input-row{
+	display:flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.input-row .input-group{
+	flex-basis: 45%;
+}
+.
