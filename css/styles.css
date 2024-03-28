@@ -142,7 +142,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 	text-align: center;
 	color: #FFFFFF;
 }
-
+.exclusives div span h3 {
+    border: 2px solid #fff; /* Add border around city names with the blue color */
+    padding: 10px; /* Add padding to increase space around the text */
+    background-color: #FFCF00; /* Fill the border with the same blue color */
+    color: #FFF; /* Set text color to white */
+}
 /*-------------------trending placs--------------*/
 .trending{
 	display: grid;
@@ -889,7 +894,7 @@ body10{
 
 /*---------registerpage-----*/
 
-body {
+body2 {
 	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/cities/grass.jpg");
 	background-size: cover;
 	background-position: center;
