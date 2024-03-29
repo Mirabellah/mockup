@@ -946,6 +946,7 @@ h13{
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
+	margin-bottom: 70px;
 }
 .containerfaq h1{
 	color: #333;
