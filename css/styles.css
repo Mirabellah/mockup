@@ -894,10 +894,17 @@ body10{
 
 /*---------registerpage-----*/
 
-body2 {
+body11 {
 	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/cities/grass.jpg");
 	background-size: cover;
-	background-position: center;
+	color: #fff;
+	}
+.registration-form{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 350px;
 }
 /*-----------contact-page--------*/
 body3{
