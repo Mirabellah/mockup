@@ -1112,7 +1112,7 @@ h13{
 	filter: blur(150px);
 }
 .shape1{
-	background-color: rgb(235,3,204);
+	background-color: #FFCF00;
 	left: 40%
 }
 .shape2{
@@ -1122,18 +1122,18 @@ h13{
 	border-radius: 100%;
 }
 .shape3{
-    background-color: rgb(5,143,255);
+    background-color:#D9E0A2;
 	bottom: 0px;
 	border-radius: 50px;
 }
 .shape4{
-    background-color: rgb(255,0,98);
+    background-color: #C4DDEF;
 	right: 0px;
 	bottom: 0px;
 	border-radius: 100%;
 }
 .shape5{
-    background-color: rgb(255,0,200);
+    background-color: #DBB377;
 	right: 0px;
 	top: 0px;
 	border-radius: 100%;
