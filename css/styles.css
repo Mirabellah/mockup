@@ -933,7 +933,7 @@ body{
 	background-color: #fff;
 }
 /*-----------contact-page--------*/
-body3{
+.body3{
 	background:#4175AC;
 	font-size: 14px;	
 }
@@ -950,12 +950,12 @@ body3{
 	padding:40px 60px;
 }
 .contact-right{
-	flex-basis: 60%;
-	padding:40px 60px;
+	flex-basis: 40%;
+	padding:40px;
 	background: #1c00b5;
 	color:#fff;
 }
-h13{
+h8{
 	margin-bottom: 10px;
 }
 .container p{
