@@ -893,10 +893,6 @@ body10{
 
 /*---------registerpage-----*/
 
-body{
-	background-size: cover;
-	color: #0E0E0E;
-}
 .registration-form{
 	position: absolute;	
 	top: 75%;
@@ -933,43 +929,83 @@ body{
 	background-color: #fff;
 }
 /*-----------contact-page--------*/
-body3{
-	background:#4175AC;
-	font-size: 14px;	
+section1{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
 }
-.container3{
-	width: 80%;
-	margin: 50px auto;
+.contact{
+	min-height: 100vh;
+	background-color: #e8f0fe;
+	padding: 50px;
+	text-align: center;
 }
-.container-box{
-	background: #fff;
-	display: flex;
+.container2{
+	max-width: 800px;
+	margin: 0 auto;
 }
-.contact-left{
-	flex-basis: 60%;
-	padding:40px 60px;
+.container2 h8{
+	font-size: 36px;
+	margin-bottom: 40px;
+	color: #333;	
 }
-.contact-right{
-	flex-basis: 60%;
-	padding:40px 60px;
-	background: #1c00b5;
-	color:#fff;
+.contact-wrapper{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 30px;
 }
-h13{
-	margin-bottom: 10px;
+.contact-form{
+	text-align: left;
 }
-.container p{
-	marginbottom: 40px;
+.contact-form h9{
+	font-size: 24px;
+	margin-bottom: 20px;
+	color: #333;	
 }
-.input-row{
-	display:flex;
-	justify-content: space-between;
+.form-group{
 	margin-bottom: 20px;
 }
-.input-row .input-group{
-	flex-basis: 45%;
+input1, textarea{
+	width: 100%;
+	padding:12px;
+	border-radius: 8px;
+	border: none;
+	background-color: #f8f9fa;
+	color: #333;
 }
-
+input1:focus,
+textarea:focus{
+	outline: none;
+	box-shadow: 0 0 8px #bbb;
+}
+button1{
+	display: inline-block;
+	padding: 12px 24px;
+	background-color: #4caf50;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	transition: 0.3s ease;
+}
+button1:hover{
+	background-color: #45a049;
+}
+.contact-info{
+	text-align: left;
+}
+.contact-info h14{
+	font-size: 24px;
+	margin-bottom: 20px;
+	color: #333;
+}
+.contact-info p{
+	margin-bottom: 10px;
+	color: #555;
+}
+.contact-info i{
+	color:#4caf50;
+	margin-right:  10px;
+}
 
 /*---------faqpage-----*/
 
