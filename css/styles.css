@@ -1226,7 +1226,7 @@ h1{
 	}
 }
 #service-section{
-	min-height: 740px;
+	min-height: 540px;
 	width: 100%;
 	display: flex;
 	align-items: center;
@@ -1248,7 +1248,7 @@ h1{
 	height: 0px;
 	width: 0px;
 	border-top: 20px solid transparent;
-	border-left: 20px solid var(--primery-color);
+	border-left: 50px solid var(--primery-color);
 }
 #service-section h2::before{
 	position: absolute;
@@ -1279,12 +1279,12 @@ h1{
 }
 .cards .card-service{
 	min-height: 350px;
-	width: 450px;
+	width: 300px;
 	display: flex;
 	justify-content: flex-start;
 	flex-direction: column;
 	padding: 0 8%;
-	background: rgb(65,62,105);
+	background: #DBB377;
 	position: relative;
 	border-radius: 10px;
 	margin: 0 10px;
@@ -1297,7 +1297,7 @@ h1{
 	top: 0;
 	left: 0;
 	border-radius: 10px;
-	background: #fd562a;
+	background: #FFCF00;
 	/*transform: rotate(10deg); */
 	transform: rotate(0deg);
 	z-index: -1;
