@@ -505,7 +505,19 @@ footer p{
         align-items: center; /* Center items horizontally */
         text-align: center; /* Center text horizontally */
     }
-   
+   .search-bar {
+        width: 90%; /* Adjust width to fit smaller screens */
+        margin: 20px auto; /* Center the search bar */
+        padding: 10px; /* Adjust padding */
+    }
+
+    .search-bar form {
+        flex-direction: column; /* Stack form elements vertically */
+        align-items: center; /* Center form elements */
+    }
+
+  
+    }
     .exclusives div span h3 {
         font-size: 16px;
     }
