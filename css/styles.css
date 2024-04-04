@@ -1261,3 +1261,20 @@ h1{
 	margin-bottom: 20px;
 	font-weight: 500;
 }
+
+@media only screen and (max-width: 992px){
+	#service-section h2{
+		margin-top: 30px;
+	}
+	.cards{
+		grid-template-columns: repeat(1,1fr);
+	}
+	#service-section #paragraph{
+		width: 80%;
+	}
+	.cards .card-service{
+		height: 300px;
+		width: 400px;
+		margin: 20px 0;
+	}
+}
