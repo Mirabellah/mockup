@@ -21,13 +21,12 @@ nav{ display: flex;
 	padding: 20px 7%;
 }
 .welcome-text {
-    font-size: 30px; /* Adjust the font size as needed */
+    font-size: 30px; 
 	font-weight: bold;
 	text-align: left;
 	margin-top: 20px;
     color: #FFCF00;
 	font-family: 'Gluten', sans-serif;
-;/* Set text color */
 }
 
 
@@ -143,10 +142,10 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 	color: #FFFFFF;
 }
 .exclusives div span h3 {
-    border: 2px solid #fff; /* Add border around city names with the blue color */
-    padding: 10px; /* Add padding to increase space around the text */
-    background-color: #FFCF00; /* Fill the border with the same blue color */
-    color: #FFF; /* Set text color to white */
+    border: 2px solid #fff;
+    padding: 10px;
+    background-color: #FFCF00;
+    color: #FFF;
 }
 /*-------------------trending placs--------------*/
 .trending{
@@ -502,22 +501,22 @@ footer p{
     .exclusives div {
         display: flex;
         flex-direction: column;
-        align-items: center; /* Center items horizontally */
-        text-align: center; /* Center text horizontally */
+        align-items: center; 
+        text-align: center; 
     }
    .search-bar {
-        width: 90%; /* Adjust width to fit smaller screens */
-        margin: 20px auto; /* Center the search bar */
-        padding: 10px; /* Adjust padding */
+        width: 90%; 
+        margin: 20px auto; 
+        padding: 10px; 
     }
 
     .search-bar form {
-        flex-direction: column; /* Stack form elements vertically */
-        align-items: center; /* Center form elements */
+        flex-direction: column;
+        align-items: center; 
     }
 
     .search-bar form label {
-        margin-bottom: 5px; /* Adjust margin for labels */
+        margin-bottom: 5px; 
   
     }
     .exclusives div span h3 {
