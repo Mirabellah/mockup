@@ -1005,7 +1005,7 @@ input {
 	transform: rotate(135deg);
 	color: #fff
 }
-.containerfaq .tab label .accordion-heading
+.containerfaq .tab label h2
 {
 	width: 40px;
 	height: 40px;
@@ -1018,7 +1018,7 @@ input {
 	border-radius: 5px;
 	margin-right: 10px;
 }
-.containerfaq .tab input:checked ~ label .accordion-heading
+.containerfaq .tab input:checked ~ label h2
 {
 	position: absolute;
 	top: 0;
@@ -1031,19 +1031,19 @@ input {
 	padding: 20px;
 }
 
-.containerfaq .tab:nth-child(2) label .accordion-heading
+.containerfaq .tab:nth-child(2) label h2
 {
 	background: linear-gradient(135deg, #C4DDEF, #FFCF00);
 }
-.containerfaq .tab:nth-child(3) label .accordion-heading
+.containerfaq .tab:nth-child(3) label h2
 {
 	background: linear-gradient(135deg, #C4DDEF, #FFCF00);
 }
-.containerfaq .tab:nth-child(4) label .accordion-heading
+.containerfaq .tab:nth-child(4) label h2
 {
 	background: linear-gradient(135deg, #C4DDEF, #FFCF00);
 }
-.containerfaq .tab:nth-child(5) label .accordion-heading
+.containerfaq .tab:nth-child(5) label h2
 {
 	background: linear-gradient(135deg, #C4DDEF, #FFCF00);
 }
@@ -1083,7 +1083,6 @@ input {
 {
     color: #fff;
 }
-
 /*---------aboutuspage-----*/
 
 .row{
