@@ -1162,20 +1162,7 @@ h1{
 .card:hover .img-container{
 	transform: scale(1.15);
 }
-@media screen and (min-width: 992px){
-	section{
-		padding: 1em;
-		
-	}
-	.card{
-		padding: 5em 1em;
-	}
-	.column{
-		flex: 0 0 33.33%;
-		max-width: 33.33%;
-		padding: 0 1em;
-	}
-}
+
 #service-section{
 	min-height: 540px;
 	width: 100%;
@@ -1273,21 +1260,4 @@ h1{
 	font-size: 1.05rem;
 	margin-bottom: 20px;
 	font-weight: 500;
-}
-
-@media(max-width: 992px){
-	#service-section h2{
-		margin-top: 30px;
-	}
-	.cards{
-		grid-template-columns: repeat(1,1fr);
-	}
-	#service-section #paragraph{
-		width: 80%;
-	}
-	.cards .card-service{
-		height: 300px;
-		width: 400px;
-		margin: 20px 0;
-	}
 }
