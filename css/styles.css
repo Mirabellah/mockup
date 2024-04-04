@@ -834,7 +834,7 @@ input {
 }
 
 /*-------------Login page-----------*/
-section4{
+.container40{
 	display: flex;
 	justify-content: center;
 	align-items: center;
