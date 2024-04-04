@@ -436,12 +436,12 @@ footer .menu li a{
 	text-decoration: none;
 	opacity: 0.75;
 }
-footer .menu li a::hover {
+footer .menu li a:hover {
 	opacity: 1;
 	
 }
 footer p{
-	color: #00000;
+	color: #000000;
 	text-align: center;
 	margin-top: 15px;
 	margin-bottom: 10px;
@@ -451,7 +451,7 @@ footer p{
 
 
 /*-------------------for small screen devices --------------*/
-@media only screen and (max-width:700 px){
+@media only screen and (max-width: 700px){
 	.logo{
 		position: fixed;
 		top: 4%;
