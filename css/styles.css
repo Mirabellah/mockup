@@ -1030,7 +1030,7 @@ body10{
 	color: rgba(0,0,0,0.1);
 	transition: transform 1s;
 }
-.containerfaq .tab::hover label::after
+.containerfaq .tab:hover label::after
 {
 	color: #333;
 }
@@ -1124,7 +1124,7 @@ body10{
 	display: flex;
 	flex-wrap: wrap;
 	padding: 2em 1em;
-	ustify-content: center;
+	justify-content: center;
 	text-align: center;
 }
 .column {
@@ -1142,7 +1142,7 @@ h1{
 	color: #000000;
 }
 .card{
-	box-shadow: 0 0 2.4em rgba(25, 0 58, 0.1);
+	box-shadow: 0 0 2.4em rgba(25, 0, 58, 0.1);
 	padding: 3.5em 1em;
 	border-radius: 0.6em;
 	color: #1f003b;
@@ -1205,7 +1205,7 @@ h1{
 		padding: 5em 1em;
 	}
 	.column{
-		flex: 0 0 0 33.33%;
+		flex: 0 0 33.33%;
 		max-width: 33.33%;
 		padding: 0 1em;
 	}
@@ -1251,7 +1251,7 @@ h1{
 	color: rgba(255, 255, 255, 0.7);
 	text-align: center;
 	line-height: 1.5rem;
-	white-space: 1px;
+	letter-spacing: 1px;
 	margin-bottom: 40px;
 	text-transform: uppercase;
 }
