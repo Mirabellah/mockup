@@ -982,107 +982,82 @@ input {
 .containerfaq .tab input{
 	appearance: none;
 }
-.containerfaq .tab label{
-	display: flex;
-	align-items: center;
-	cursor: pointer;
-}
-.containerfaq .tab label::after
-{
-	content: '+';
-	position: absolute;
-	right: 20px;
-	font-size: 2em;
-	color: rgba(0,0,0,0.1);
-	transition: transform 1s;
-}
-.containerfaq .tab:hover label::after
-{
-	color: #333;
-}
-.containerfaq .tab input:checked ~ label::after
-{
-	transform: rotate(135deg);
-	color: #fff
-}
-.containerfaq .tab label h2
-{
-	width: 40px;
-	height: 40px;
-	background: #333;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	color: #fff;
-	font-size: 1.25em;
-	border-radius: 5px;
-	margin-right: 10px;
-}
-.containerfaq .tab input:checked ~ label h2
-{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	color: rgba(255,255,255,0.2);
-	font-size: 8em;
-	justify-content: flex-end;
-	padding: 20px;
+.containerfaq .tab label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
 }
 
-.containerfaq .tab:nth-child(2) label h2
-{
-	background: linear-gradient(135deg, #C4DDEF, #FFCF00);
+.containerfaq .tab label .faq-number {
+    width: 40px;
+    height: 40px;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.25em;
+    border-radius: 5px;
+    margin-right: 10px;
 }
-.containerfaq .tab:nth-child(3) label h2
-{
-	background: linear-gradient(135deg, #C4DDEF, #FFCF00);
+
+.containerfaq .tab label .faq-question {
+    font-weight: 500;
+    color: #333;
 }
-.containerfaq .tab:nth-child(4) label h2
-{
-	background: linear-gradient(135deg, #C4DDEF, #FFCF00);
+
+.containerfaq .tab label::after {
+    content: '+';
+    position: absolute;
+    right: 20px;
+    font-size: 2em;
+    color: rgba(0, 0, 0, 0.1);
+    transition: transform 1s;
 }
-.containerfaq .tab:nth-child(5) label h2
-{
-	background: linear-gradient(135deg, #C4DDEF, #FFCF00);
+
+.containerfaq .tab:hover label::after {
+    color: #333;
 }
-.containerfaq .tab label h3{
-	position: relative;
-	font-weight: 500;
-	color: #333;
-	z-index: 10;
-}
-.containerfaq .tab input:checked ~ label h3
-{
-	background: #fff;
-	padding: 2px 10px;
-	color: #333;
-	border-radius: 2px;
-	box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-	
-}
-.containerfaq .tab .content1
-{
-	max-height: 0;
-	transition: 1s;
-	overflow: hidden;
-}
-.containerfaq .tab input:checked ~ .content1
-{
-	max-height: 100vh;
-}
-.containerfaq .tab .content1 p
-{
-	position: relative;
-	padding: 10px 0;
-	color: #333;
-	z-index: 10;
-}
-.containerfaq .tab input:checked ~ .content1 p
-{
+
+.containerfaq .tab input:checked ~ label::after {
+    transform: rotate(135deg);
     color: #fff;
 }
+
+.containerfaq .tab input:checked ~ label .faq-number {
+    background: linear-gradient(135deg, #c4ddef, #ffcf00);
+    color: #fff;
+}
+
+.containerfaq .tab input:checked ~ label .faq-question {
+    background: #fff;
+    padding: 2px 10px;
+    color: #333;
+    border-radius: 2px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.containerfaq .content1 {
+    max-height: 0;
+    transition: 1s;
+    overflow: hidden;
+}
+
+.containerfaq .tab input:checked ~ .content1 {
+    max-height: 100vh;
+}
+
+.containerfaq .tab .content1 p {
+    position: relative;
+    padding: 10px 0;
+    color: #333;
+    z-index: 10;
+}
+
+.containerfaq .tab input:checked ~ .content1 p {
+    color: #fff;
+}
+
 /*---------aboutuspage-----*/
 
 .row{
