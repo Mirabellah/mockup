@@ -324,11 +324,11 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 @media screen and (min-width: 768px) {
 	.testi .testimonials-wrapper{
 	flex-direction: row;
-		padding: 30px 100px;
+		padding: 30px 50px;
 	}
 	.testi .thumbnail{
-		width: 200px;
-		height: 200px;
+		width: 150px;
+		height: 150px;
 	}
 	.testi .swiper-button-next,
 	.testi .swiper-button-prev{
@@ -337,6 +337,10 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 	.testi .swiper-slide-active .name{
 		transform: translateX(-50px);
 	}
+	.testi .aside > p {
+        font-size: 14px;
+        text-align: center;
+}
 }
 
 /*-------------------call to action--------------*/
