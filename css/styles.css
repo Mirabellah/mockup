@@ -336,10 +336,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 	}
 	.testi .swiper-slide-active .name{
 		transform: translateX(-50px);
-	}
-	.testi .aside > p {
-        font-size: 14px;
-        text-align: center;
+
 }
 }
 
