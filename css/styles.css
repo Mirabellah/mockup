@@ -516,6 +516,8 @@ footer p{
         align-items: center; /* Center form elements */
     }
 
+    .search-bar form label {
+        margin-bottom: 5px; /* Adjust margin for labels */
   
     }
     .exclusives div span h3 {
