@@ -215,7 +215,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 	background-color: #FFCF00;
 	border-radius: 50%;
 	z-index: -1;
-	box-shadow: var(--box-shadow);
 	transition: border-radius .5s .3s;
 }
 .testi .swiper-slide-active .thumbnail::before{
@@ -294,7 +293,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 	height: 38px;
 	border-radius: 50%;
 	transition: background-color .3s;
-	box-shadow: var(--box-shadow);
 }
 .testi .swiper-button-next:hover,
 .testi .swiper-button-prev:hover{
@@ -1062,7 +1060,6 @@ h1{
 	height: 0px;
 	width: 0px;
 	border-top: 20px solid transparent;
-	border-left: 50px solid var(--primery-color);
 }
 #service-section h2::before{
 	position: absolute;
@@ -1072,7 +1069,6 @@ h1{
 	height: 0px;
 	width: 0px;
 	border-top: 20px solid transparent;
-	border-left: 20px solid var(--primary-color);
 }
 #service-section #paragraph{
 	width: 40%;
@@ -1122,7 +1118,6 @@ h1{
 }
 .cards .card-service i{
 	font-size: 2.5rem;
-	color: var(--primary-color);
 	margin-top: 40px;
 	margin-bottom: 10px;
 }
@@ -1303,12 +1298,7 @@ h1{
 	font-weight: 500;
 	cursor: pointer;
 }
-label::before{
-	content: "+";
-	margin-right: 10px;
-	font-size: 24px;
-	font-weight: 600;
-}
+
 input[type="radio"]{
 	display: none;
 }
@@ -1327,3 +1317,10 @@ input[type="radio"]{
 .accordion input[type="radio"]:checked + label::before{
 	content: '-';
 }
+.faqpage .accordion li label::before {
+    content: "+";
+    margin-right: 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
