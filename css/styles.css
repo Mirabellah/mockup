@@ -147,13 +147,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     background-color: #FFCF00;
     color: #FFF;
 }
-/*-------------------trending placs--------------*/
-.trending{
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-	grid-gap: 30px;
-	margin-bottom: 30px;
-}
+
 
 /*-------------------experiences--------------*/
 
