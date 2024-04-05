@@ -1140,14 +1140,14 @@ h1{
     position: absolute;
     left: 0;
     top: 1px; 
-    width: 20px;
-    height: 20px; 
-    border: 2px solid white;
+    width: 10px;
+    height: 10px; 
+    border: 2px solid #FFCF00;
     border-radius: 50%;
 }
 
 .gender-category input[type="radio"]:checked + label:before {
-    background-color: white;
+    background-color: #FFCF00;
 }
 
 .form-title{
