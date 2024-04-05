@@ -960,104 +960,6 @@ input {
 }
 /*---------faqpage-----*/
 
-.containerfaq{
-	margin: 0 auto;
-	max-width: 600px;
-	display: flex;
-	flex-direction: column;
-	gap: 20px;
-	margin-bottom: 70px;
-}
-.containerfaq h1{
-	color: #333;
-}
-.containerfaq .tab{
-	position: relative;
-	background: #fff;
-	padding: 0 20px 20px;
-	box-shadow: 0 15px 25px rgba(0,0,0,0.05);
-	border-radius: 5px;
-	overflow: hidden;
-}
-.containerfaq .tab input{
-	appearance: none;
-}
-.containerfaq .tab label {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-}
-
-.containerfaq .tab label .faq-number {
-    width: 40px;
-    height: 40px;
-    background: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    font-size: 1.25em;
-    border-radius: 5px;
-    margin-right: 10px;
-}
-
-.containerfaq .tab label .faq-question {
-    font-weight: 500;
-    color: #333;
-}
-
-.containerfaq .tab label::after {
-    content: '+';
-    position: absolute;
-    right: 20px;
-    font-size: 2em;
-    color: rgba(0, 0, 0, 0.1);
-    transition: transform 1s;
-}
-
-.containerfaq .tab:hover label::after {
-    color: #333;
-}
-
-.containerfaq .tab input:checked ~ label::after {
-    transform: rotate(135deg);
-    color: #fff;
-}
-
-.containerfaq .tab input:checked ~ label .faq-number {
-    background: linear-gradient(135deg, #c4ddef, #ffcf00);
-    color: #fff;
-}
-
-.containerfaq .tab input:checked ~ label .faq-question {
-    background: #fff;
-    padding: 2px 10px;
-    color: #333;
-    border-radius: 2px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-}
-
-.containerfaq .content1 {
-    max-height: 0;
-    transition: 1s;
-    overflow: hidden;
-}
-
-.containerfaq .tab input:checked ~ .content1 {
-    max-height: 100vh;
-}
-
-.containerfaq .tab .content1 p {
-    position: relative;
-    padding: 10px 0;
-    color: #333;
-    z-index: 10;
-}
-
-.containerfaq .tab input:checked ~ .content1 p {
-    color: #fff;
-}
-
 /*---------aboutuspage-----*/
 
 .row{
@@ -1363,4 +1265,65 @@ h1{
 		max-height: 380px;
 		overflow: auto;
 	}
+}
+
+/*---------faqpage-----*/
+.containerfaq{
+	margin: 0 auto;
+	max-width: 600px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	margin-bottom: 70px;
+	font-size: 18px;
+}
+.containerfaq h1{
+	color: #333;
+}
+
+.accordion{
+	margin: 60px auto;
+	width: 600px;
+}
+.accordion li{
+	list-style: none;
+	width: 100%;
+	margin: 20px;
+	padding: 10px;
+	border-radius: 8px;
+	background: #e3edf7;
+	box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+	        	-6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+.accordion li label{
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	font-size: 18px;
+	font-weight: 500;
+	cursor: pointer;
+}
+label::before{
+	content: "+";
+	margin-right: 10px;
+	font-size: 24px;
+	font-weight: 600;
+}
+input[type="radio"]{
+	display: none;
+}
+.accordion .content{
+	color: #555;
+	padding: 0 10px;
+	line-height: 26px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.5s, padding 0.5s;
+}
+.accordion input[type="radio"]:checked + label + .content{
+	max-height: 400px;
+	padding: 10px 10px 20px;
+}
+.accordion input[type="radio"]:checked + label::before{
+	content: '-';
 }
