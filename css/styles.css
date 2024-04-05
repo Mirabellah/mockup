@@ -1089,6 +1089,7 @@ h1{
 	font-weight: 500;
 }
 
+
 @media only screen and (max-width: 750px){
 	
 	#service-section h2{
@@ -1121,6 +1122,34 @@ h1{
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
+.gender-category input[type="radio"] {
+    display: none;
+}
+
+.gender-category input[type="radio"] + label {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+.gender-category input[type="radio"] + label:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 1px; 
+    width: 20px;
+    height: 20px; 
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.gender-category input[type="radio"]:checked + label:before {
+    background-color: white;
+}
+
 .form-title{
 	font-size: 26px;
 	font-weight: 600;
